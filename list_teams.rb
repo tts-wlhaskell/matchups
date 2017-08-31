@@ -1,4 +1,8 @@
+require_relative "team"
+
 def list_teams(teams)
-    #fake output
-    puts "You called list_teams"
+    puts "The teams are:"
+    teams.each do |team|
+    puts "#{team.name}."
+    end
 end
